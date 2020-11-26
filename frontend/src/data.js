@@ -42,7 +42,7 @@ const data = {
             brand: 'Compatible', 
             rating: 4.5, 
             numReviews: 10, 
-            description: 'Toner Compatible'
+            description: 'Test de que el Repo jale bien siiiuuuuhh'
         },
         {
             _id:'5',
