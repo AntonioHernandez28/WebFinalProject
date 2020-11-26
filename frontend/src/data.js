@@ -7,7 +7,7 @@ const data = {
             image: '/images/product1.jpg', 
             price: 120, 
             brand: 'Compatible', 
-            rating: 4.5, 
+            rating: 1.5, 
             numReviews: 10, 
             description: 'Toner Compatible'
         }, 
@@ -18,7 +18,7 @@ const data = {
             image: '/images/product1.jpg', 
             price: 121, 
             brand: 'Compatible', 
-            rating: 4.5, 
+            rating: 4, 
             numReviews: 10, 
             description: 'Toner Compatible'
         },
@@ -40,7 +40,7 @@ const data = {
             image: '/images/product1.jpg', 
             price: 123, 
             brand: 'Compatible', 
-            rating: 4.5, 
+            rating: 5, 
             numReviews: 10, 
             description: 'Test de que el Repo jale bien siiiuuuuhh'
         },
@@ -51,7 +51,7 @@ const data = {
             image: '/images/product1.jpg', 
             price: 124, 
             brand: 'Compatible', 
-            rating: 4.5, 
+            rating: 3.5, 
             numReviews: 10, 
             description: 'Toner Compatible Siuuuuh done repo'
         },
