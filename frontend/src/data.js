@@ -53,7 +53,7 @@ const data = {
             brand: 'Compatible', 
             rating: 4.5, 
             numReviews: 10, 
-            description: 'Toner Compatible'
+            description: 'Toner Compatible Siuuuuh done repo'
         },
     ],
 }; 
