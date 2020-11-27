@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/api/products', (req, res) => {
     res.send(data.products);
-})
+});
 
 app.get('/', (req, res) => {
     res.send('Server Listo'); 
