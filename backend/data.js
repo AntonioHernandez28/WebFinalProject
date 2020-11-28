@@ -1,7 +1,22 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+    users: [
+        {
+          name: 'Arely',
+          email: 'admin@example.com',
+          password: bcrypt.hashSync('1234', 8),
+          isAdmin: true,
+        },
+        {
+          name: 'Antonio',
+          email: 'user@example.com',
+          password: bcrypt.hashSync('1234', 8),
+          isAdmin: false,
+        },
+    ],
     products:[
         {
-            _id:'1',
             name: 'Toner 85A', 
             category: 'Toner', 
             image: '/images/product1.jpg', 
@@ -13,7 +28,6 @@ const data = {
             description: 'Toner Compatible',
         }, 
         {
-            _id:'2',
             name: 'Toner 86A', 
             category: 'Toner', 
             image: '/images/product1.jpg', 
@@ -25,7 +39,6 @@ const data = {
             description: 'Toner Compatible'
         },
         {
-            _id:'3',
             name: 'Toner 87A', 
             category: 'Toner', 
             image: '/images/product1.jpg', 
@@ -37,7 +50,6 @@ const data = {
             description: 'Toner Compatible'
         },
         {
-            _id:'4',
             name: 'Toner 88A', 
             category: 'Toner', 
             image: '/images/product1.jpg', 
@@ -49,7 +61,6 @@ const data = {
             description: 'Test de que el Repo jale bien siiiuuuuhh'
         },
         {
-            _id:'5',
             name: 'Toner 89A', 
             category: 'Toner', 
             image: '/images/product1.jpg', 
