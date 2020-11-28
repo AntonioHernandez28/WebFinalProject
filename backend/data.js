@@ -10,7 +10,7 @@ const data = {
             brand: 'Compatible', 
             rating: 1.5, 
             numReviews: 10, 
-            description: 'Toner Compatible'
+            description: 'Toner Compatible',
         }, 
         {
             _id:'2',
