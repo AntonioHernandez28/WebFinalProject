@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/AntonioHernandez28/WebFinalProject#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "package.json": "^2.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
