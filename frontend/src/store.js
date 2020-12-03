@@ -9,6 +9,7 @@ import {
 import {
     orderCreateReducer,
     orderDetailsReducer,
+    orderPayReducer,
   } from './reducers/orderReducers';
 const initialState = {
     userSignin: {
@@ -34,6 +35,7 @@ const reducer = combineReducers({
     userRegister: userRegisterReducer,
     orderCreate: orderCreateReducer,
     orderDetails: orderDetailsReducer,
+    orderPay: orderPayReducer,
 });
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
