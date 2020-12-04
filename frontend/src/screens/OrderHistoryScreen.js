@@ -23,11 +23,11 @@
            <thead>
              <tr>
                <th>ID</th>
-               <th>DATE</th>
+               <th>FECHA</th>
                <th>TOTAL</th>
-               <th>PAID</th>
-               <th>DELIVERED</th>
-               <th>ACTIONS</th>
+               <th>PAGADO</th>
+               <th>ENVIADO</th>
+               <th>ACCIONES</th>
              </tr>
            </thead>
            <tbody>
@@ -50,7 +50,7 @@
                        props.history.push(`/order/${order._id}`);
                      }}
                    >
-                     Details
+                     Detalles
                    </button>
                  </td>
                </tr>

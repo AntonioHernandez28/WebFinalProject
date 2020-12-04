@@ -21,7 +21,7 @@
        <CheckoutSteps step1 step2 step3></CheckoutSteps>
        <form className="form" onSubmit={submitHandler}>
          <div>
-           <h1>Payment Method</h1>
+           <h1>Método de pago</h1>
          </div>
          <div>
            <div>
@@ -53,7 +53,7 @@
          <div>
            <label />
            <button className="primary" type="submit">
-             Continue
+             Continuar
            </button>
          </div>
        </form>

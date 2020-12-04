@@ -38,12 +38,12 @@
            <thead>
              <tr>
                <th>ID</th>
-               <th>USER</th>
-               <th>DATE</th>
+               <th>USUARIO</th>
+               <th>FECHA</th>
                <th>TOTAL</th>
-               <th>PAID</th>
-               <th>DELIVERED</th>
-               <th>ACTIONS</th>
+               <th>PAGADO</th>
+               <th>ENVIADO</th>
+               <th>ACCIONES</th>
              </tr>
            </thead>
            <tbody>
@@ -67,14 +67,14 @@
                        props.history.push(`/order/${order._id}`);
                      }}
                    >
-                     Details
+                     Detalles
                    </button>
                    <button
                      type="button"
                      className="small"
                      onClick={() => deleteHandler(order)}
                    >
-                     Delete
+                     Borrar
                    </button>
                  </td>
                </tr>

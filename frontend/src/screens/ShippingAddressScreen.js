@@ -29,58 +29,58 @@ import CheckoutSteps from '../components/CheckoutSteps';
        <CheckoutSteps step1 step2></CheckoutSteps>
        <form className="form" onSubmit={submitHandler}>
          <div>
-           <h1>Shipping Address</h1>
+           <h1>Dirección de envío</h1>
          </div>
          <div>
-           <label htmlFor="fullName">Full Name</label>
+           <label htmlFor="fullName">Nombre completo</label>
            <input
              type="text"
              id="fullName"
-             placeholder="Enter full name"
+             placeholder="Ingresar nombre completo"
              value={fullName}
              onChange={(e) => setFullName(e.target.value)}
              required
            ></input>
          </div>
          <div>
-           <label htmlFor="address">Address</label>
+           <label htmlFor="address">Dirección</label>
            <input
              type="text"
              id="address"
-             placeholder="Enter address"
+             placeholder="Ingresar dirección"
              value={address}
              onChange={(e) => setAddress(e.target.value)}
              required
            ></input>
          </div>
          <div>
-           <label htmlFor="city">City</label>
+           <label htmlFor="city">Ciudad</label>
            <input
              type="text"
              id="city"
-             placeholder="Enter city"
+             placeholder="Ingresar ciudad"
              value={city}
              onChange={(e) => setCity(e.target.value)}
              required
            ></input>
          </div>
          <div>
-           <label htmlFor="postalCode">Postal Code</label>
+           <label htmlFor="postalCode">Código postal</label>
            <input
              type="text"
              id="postalCode"
-             placeholder="Enter postal code"
+             placeholder="Ingresar código postal"
              value={postalCode}
              onChange={(e) => setPostalCode(e.target.value)}
              required
            ></input>
          </div>
          <div>
-           <label htmlFor="country">Country</label>
+           <label htmlFor="country">País</label>
            <input
              type="text"
              id="country"
-             placeholder="Enter country"
+             placeholder="Ingresar País"
              value={country}
              onChange={(e) => setCountry(e.target.value)}
              required
@@ -89,7 +89,7 @@ import CheckoutSteps from '../components/CheckoutSteps';
          <div>
            <label />
            <button className="primary" type="submit">
-             Continue
+             Continuar
            </button>
          </div>
        </form>

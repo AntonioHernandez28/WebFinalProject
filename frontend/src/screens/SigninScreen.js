@@ -37,21 +37,21 @@ import MessageBox from '../components/MessageBox';
          {loading && <LoadingBox></LoadingBox>}
          {error && <MessageBox variant="danger">{error}</MessageBox>}
          <div>
-           <label htmlFor="email">Email address</label>
+           <label htmlFor="email">Correo</label>
            <input
              type="email"
              id="email"
-             placeholder="Enter email"
+             placeholder="Ingresar correo"
              required
              onChange={(e) => setEmail(e.target.value)}
            ></input>
          </div>
          <div>
-           <label htmlFor="password">Password</label>
+           <label htmlFor="password">Contraseña</label>
            <input
              type="password"
              id="password"
-             placeholder="Enter password"
+             placeholder="Ingresar contraseña"
              required
              onChange={(e) => setPassword(e.target.value)}
            ></input>
@@ -59,15 +59,15 @@ import MessageBox from '../components/MessageBox';
          <div>
            <label />
            <button className="primary" type="submit">
-             Sign In
+             Iniciar sesión
            </button>
          </div>
          <div>
            <label />
            <div>
-            New customer?{' '}
+            Cliente nuevo?{' '}
              <Link to={`/register?redirect=${redirect}`}>
-               Create your account
+               Crea tu cuenta
              </Link>
            </div>
          </div>

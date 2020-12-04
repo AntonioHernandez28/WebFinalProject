@@ -36,46 +36,46 @@ import React, { useEffect, useState } from 'react';
      <div>
        <form className="form" onSubmit={submitHandler}>
          <div>
-           <h1>Create Account</h1>
+           <h1>Crear cuenta</h1>
          </div>
          {loading && <LoadingBox></LoadingBox>}
          {error && <MessageBox variant="danger">{error}</MessageBox>}
          <div>
-           <label htmlFor="name">Name</label>
+           <label htmlFor="name">Nombre</label>
            <input
              type="text"
              id="name"
-             placeholder="Enter name"
+             placeholder="Ingresar nombre"
              required
              onChange={(e) => setName(e.target.value)}
            ></input>
          </div>
          <div>
-           <label htmlFor="email">Email address</label>
+           <label htmlFor="email">Correo</label>
            <input
              type="email"
              id="email"
-             placeholder="Enter email"
+             placeholder="Ingresar correo"
              required
              onChange={(e) => setEmail(e.target.value)}
            ></input>
          </div>
          <div>
-           <label htmlFor="password">Password</label>
+           <label htmlFor="password">Contraseña</label>
            <input
              type="password"
              id="password"
-             placeholder="Enter password"
+             placeholder="Ingresar contraseña"
              required
              onChange={(e) => setPassword(e.target.value)}
            ></input>
          </div>
          <div>
-           <label htmlFor="confirmPassword">Confirm Password</label>
+           <label htmlFor="confirmPassword">Confirmar contraseña</label>
            <input
              type="password"
              id="confirmPassword"
-             placeholder="Enter confirm password"
+             placeholder="Volver a ingresar contraseña"
              required
              onChange={(e) => setConfirmPassword(e.target.value)}
            ></input>
@@ -83,14 +83,14 @@ import React, { useEffect, useState } from 'react';
          <div>
            <label />
            <button className="primary" type="submit">
-             Register
+             Registrar
            </button>
          </div>
          <div>
            <label />
            <div>
-             Already have an account?{' '}
-             <Link to={`/signin?redirect=${redirect}`}>Sign-In</Link>
+             Ya tienes una cuenta?{' '}
+             <Link to={`/signin?redirect=${redirect}`}>Iniciar sesión</Link>
            </div>
          </div>
        </form>
