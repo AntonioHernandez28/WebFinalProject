@@ -21,6 +21,8 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
+    "eslint": "^7.14.0",
+    "eslint-plugin-react": "^7.21.5",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
     "jsonwebtoken": "^8.5.1",
@@ -29,9 +31,10 @@
     "package.json": "^2.0.1"
   },
   "devDependencies": {
-    "eslint": "^7.9.0",
-    "eslint-plugin-react": "^7.21.2",
     "nodemon": "^2.0.6"
   },
-  "engines": {"node":"12.4.0", "npm": "6.9.0"}
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  }
 }
