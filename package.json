@@ -29,6 +29,8 @@
     "package.json": "^2.0.1"
   },
   "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.21.2",
     "nodemon": "^2.0.6"
   },
   "engines": {"node":"12.4.0", "npm": "6.9.0"}
