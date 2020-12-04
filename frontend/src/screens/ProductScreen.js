@@ -27,7 +27,7 @@ export default function ProductScreen(props){
 
   useEffect(() => {
     if (successReviewCreate) {
-      window.alert('Review Submitted Successfully');
+      window.alert('¡Reseña enviada exitosamente!');
       setRating('');
       setComment('');
       dispatch({ type: PRODUCT_REVIEW_CREATE_RESET });
@@ -46,7 +46,7 @@ export default function ProductScreen(props){
         createReview(productId, { rating, comment, name: userInfo.name })
       );
     } else {
-      alert('Please enter comment and rating');
+      alert('Por favor ingresa clasificación y comentario');
     }
   };
 
